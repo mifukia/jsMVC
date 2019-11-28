@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if IE 6]> <html class="ie6"> <![endif]-->
+<!--[if IE 7]> <html class="ie7"> <![endif]-->
+<!--[if IE 8]> <html class="ie8"> <![endif]-->
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="ja">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!--page info-->
+    <title>JSMVC</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--og-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="" />
+    <!--favicon-->
+    <link rel="shortcut icon" href="" />
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" media="all" />
+    <!--js-->
+    <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/easing.js"></script>
+
+
+    <!--[if lt IE 10]>
+<script type="text/javascript" src="assets/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="assets/js/respond.min.js"></script>
+<script type="text/javascript" src="assets/js/flexibility.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+    <h2>Address Book</h2>
+    <!-- contact list module -->
+    <section>
+        <ul id="contact-list">loading...</ul>
+    </section>
+    <!-- contact item details module   -->
+    <section>
+        <div id="contact-item-details"> loading... </div>
+    </section>
+    <section id="add-contact-module">
+        <button id="open-add-contact-form-btn">+</button>
+        <form>
+            <h2>Add Contact</h2>
+            first name:<br>
+            <input type='text' data-key='fname' class='add-contact-input'><br>
+            last name:<br>
+            <input type='text' data-key='lname' class='add-contact-input'><br>
+            phone:<br>
+            <input type='text' data-key='phone' class='add-contact-input'><br>
+            email:<br>
+            <input type='text' data-key='email' class='add-contact-input'><br>
+            <button type='button' id="add-contact-btn">add</button>
+        </form>
+    </section>
+    <script type="text/javascript" src="assets/js/main-dist.js"></script>
+</body>
+
+</html>
